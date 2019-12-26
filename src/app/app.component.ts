@@ -8,6 +8,7 @@ import { UsersService } from './users.service';
 // import { map, filter } from 'rxjs/operators';
 
 import 'rxjs/add/operator/map';
+import * as $ from "jquery";
 
 @Component({
   selector: 'my-app',

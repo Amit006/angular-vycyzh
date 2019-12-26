@@ -11,6 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
 import { UsersService } from './users.service';
 
+import * as $ from "jquery";
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule, DataTablesModule, HttpModule, HttpClientModule ],
   declarations: [ AppComponent, HelloComponent ],
